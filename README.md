@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Setting Up Firebase Authentication and Firestore
+
+# Firebase Setup:
+
+Go to the Firebase Console and create a new project.
+Set up Firebase Authentication and Firestore in your project.
+
+# Replace Firebase Config:
+
+Replace the Firebase configuration in your application with the one provided in firebase.json.
+// Example firebase.json
+{
+"apiKey": "YOUR_API_KEY",
+"authDomain": "YOUR_AUTH_DOMAIN",
+"projectId": "YOUR_PROJECT_ID",
+"storageBucket": "YOUR_STORAGE_BUCKET",
+"messagingSenderId": "YOUR_MESSAGING_SENDER_ID",
+"appId": "YOUR_APP_ID"
+}
+
+Ensure to replace "YOUR_API_KEY", "YOUR_AUTH_DOMAIN", "YOUR_PROJECT_ID", "YOUR_STORAGE_BUCKET", "YOUR_MESSAGING_SENDER_ID", and "YOUR_APP_ID" with your actual Firebase configuration values.
